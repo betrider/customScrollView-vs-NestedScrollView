@@ -165,7 +165,7 @@ class FlexibleSpaceWidget extends StatelessWidget {
         }
 
         return opacity == 0.0
-            ? const FlexibleSpaceBar(title: Text("User Status"))
+            ? const FlexibleSpaceBar(title: Text("Custom Scroll View"))
             : Opacity(
                 opacity: opacity,
                 child: FlexibleSpaceBar(
